@@ -1,8 +1,4 @@
----
-  tags: rack, tutorial, middleware, intermediate
-  languages: ruby
-  resources: 0
----
+
 
 ## Using Middleware
 
