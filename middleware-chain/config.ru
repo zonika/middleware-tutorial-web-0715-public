@@ -1,4 +1,6 @@
 require 'rack'
+require_relative './hello'
+require_relative './randomize'
 
 class MyApp
   def initialize
@@ -42,3 +44,5 @@ end
 use AnotherThing
 use SomeMiddleStuff
 run MyApp.new
+use Randomize
+run Hello.new
